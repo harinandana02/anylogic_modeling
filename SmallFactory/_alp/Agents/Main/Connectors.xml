@@ -3,7 +3,7 @@
 	<Connector>
 		<Id>1737274396620</Id>
 		<Name><![CDATA[connector]]></Name>
-		<X>330</X>
+		<X>180</X>
 		<Y>80</Y>
 		<Label>
 			<X>10</X>
@@ -38,7 +38,7 @@
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>-240</X>
+				<X>-90</X>
 				<Y>0</Y>
 			</Point>
 		</Points>
@@ -46,7 +46,7 @@
 	<Connector>
 		<Id>1737274504865</Id>
 		<Name><![CDATA[connector1]]></Name>
-		<X>520</X>
+		<X>280</X>
 		<Y>80</Y>
 		<Label>
 			<X>10</X>
@@ -81,16 +81,368 @@
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>-150</X>
+				<X>-60</X>
 				<Y>0</Y>
 			</Point>
 		</Points>
 	</Connector>
 	<Connector>
-		<Id>1737274555130</Id>
-		<Name><![CDATA[connector2]]></Name>
-		<X>820</X>
+		<Id>1737374791162</Id>
+		<Name><![CDATA[connector3]]></Name>
+		<X>90</X>
+		<Y>180</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>sourceDoors</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Source</ClassName>
+			<ItemName>out</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>qDoors</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Queue</ClassName>
+			<ItemName>in</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>80</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1737374869092</Id>
+		<Name><![CDATA[connector4]]></Name>
+		<X>370</X>
 		<Y>80</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>assembler</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Assembler</ClassName>
+			<ItemName>in1</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>conveyorBodies</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Conveyor</ClassName>
+			<ItemName>out</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-50</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1737467370076</Id>
+		<Name><![CDATA[connector5]]></Name>
+		<X>210</X>
+		<Y>180</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>qDoors</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Queue</ClassName>
+			<ItemName>out</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>assembler</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Assembler</ClassName>
+			<ItemName>in2</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>100</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>100</X>
+				<Y>-90</Y>
+			</Point>
+			<Point>
+				<X>160</X>
+				<Y>-90</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1737483893631</Id>
+		<Name><![CDATA[connector6]]></Name>
+		<X>0</X>
+		<Y>0</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>qAssembly</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Queue</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>assembler</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Assembler</ClassName>
+			<ItemName>out</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>470</X>
+				<Y>80</Y>
+			</Point>
+			<Point>
+				<X>420</X>
+				<Y>80</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1737483960229</Id>
+		<Name><![CDATA[connector7]]></Name>
+		<X>550</X>
+		<Y>80</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>conveyorAssembly</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Conveyor</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>qAssembly</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Queue</ClassName>
+			<ItemName>out</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-40</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1737484433838</Id>
+		<Name><![CDATA[connector8]]></Name>
+		<X>630</X>
+		<Y>80</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>packaging</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Assembler</ClassName>
+			<ItemName>in1</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>conveyorAssembly</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Conveyor</ClassName>
+			<ItemName>out</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-40</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1737484955429</Id>
+		<Name><![CDATA[connector2]]></Name>
+		<X>700</X>
+		<Y>80</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>loading</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Batch</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>packaging</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Assembler</ClassName>
+			<ItemName>out</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-20</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1737485082898</Id>
+		<Name><![CDATA[connector9]]></Name>
+		<X>760</X>
+		<Y>80</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>delay</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Delay</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>smallfactory</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>loading</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Batch</ClassName>
+			<ItemName>out</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-20</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1737485114393</Id>
+		<Name><![CDATA[connector10]]></Name>
+		<X>0</X>
+		<Y>0</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -111,21 +463,21 @@
 		<TargetEmbeddedObjectReference>
 			<PackageName>smallfactory</PackageName>
 			<ClassName>Main</ClassName>
-			<ItemName>conveyorBodies</ItemName>
+			<ItemName>delay</ItemName>
 		</TargetEmbeddedObjectReference>
 		<TargetConnectableItemReference>
 			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>Conveyor</ClassName>
+			<ClassName>Delay</ClassName>
 			<ItemName>out</ItemName>
 		</TargetConnectableItemReference>
 		<Points>
 			<Point>
-				<X>0</X>
-				<Y>0</Y>
+				<X>830</X>
+				<Y>80</Y>
 			</Point>
 			<Point>
-				<X>-260</X>
-				<Y>0</Y>
+				<X>800</X>
+				<Y>80</Y>
 			</Point>
 		</Points>
 	</Connector>
